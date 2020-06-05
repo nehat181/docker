@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+  <translation key="EntityHistory.Action" type="SfFieldLabel" value="Actie"/>
+  <translation key="EntityHistory.CreatedById" type="SfFieldLabel" value="Gebruiker"/>
+  <translation key="EntityHistory.CreatedDate" type="SfFieldLabel" value="Datum"/>
+  <translation key="EntityHistory.Field" type="SfFieldLabel" value="Veld"/>
+  <translation key="EntityHistory.NewValue" type="SfFieldLabel" value="Nieuwe waarde"/>
+  <translation key="EntityHistory.OldValue" type="SfFieldLabel" value="Oorspronkelijke waarde"/>
+</translations>

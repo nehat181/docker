@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<translations>
+  <translation key="EntityHistory.CreatedById" type="SfFieldLabel" value="Bruger"/>
+  <translation key="EntityHistory.CreatedDate" type="SfFieldLabel" value="Dato"/>
+  <translation key="EntityHistory.Action" type="SfFieldLabel" value="Handling"/>
+  <translation key="EntityHistory.Field" type="SfFieldLabel" value="Felt"/>
+  <translation key="EntityHistory.NewValue" type="SfFieldLabel" value="Ny værdi"/>
+  <translation key="EntityHistory.OldValue" type="SfFieldLabel" value="Oprindelig værdi"/>
+</translations>

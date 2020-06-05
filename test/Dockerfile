@@ -13,8 +13,8 @@ unzip
 RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 RUN dpkg -i google-chrome-stable_current_amd64.deb; apt-get -fy install
 RUN mkdir -p /opt/provar/demo
-#RUN wget https://download.provartesting.com/2.0.5/Provar_ANT_2.0.5.04.zip -P /opt/provar
-#RUN unzip /opt/provar/Provar_ANT_2.0.5.04.zip -d /opt/provar
-#COPY . /opt/provar/build_dir
+RUN wget https://download.provartesting.com/2.0.5/Provar_ANT_2.0.5.04.zip -P /opt/provar
+RUN unzip /opt/provar/Provar_ANT_2.0.5.04.zip -d /opt/provar
+COPY . /opt/provar/build_dir
 ENTRYPOINT ["/opt/provar/script.sh"]
 CMD ["AllTests"]
